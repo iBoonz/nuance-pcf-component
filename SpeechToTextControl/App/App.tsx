@@ -179,7 +179,7 @@ export class App extends React.Component<IAppProps, IAppState>{
 
             var script = document.createElement("script");
             script.type = "text/javascript";
-            script.src = "https://speechanywhere.nuancehdp.com/mainline/scripts/Nuance.SpeechAnywhere.js";
+            script.src = "https://speechanywhere-prod-uk.nuancehdp.com/mainline/scripts/Nuance.SpeechAnywhere.js";
             script.id = "nuance-lib";
             document.getElementsByTagName("head")[0].appendChild(script);
             resolve(true);
